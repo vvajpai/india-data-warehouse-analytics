@@ -177,7 +177,7 @@ india-data-warehouse-analytics/
 
 Dashboard screenshots are available in the `dashboard_images/` folder.
 
-## Power Generation Dashboard
+## CPI Dashboard
 
 ![CPI Dashboard](dashboard_images/cpi_dashboard.png)
 
