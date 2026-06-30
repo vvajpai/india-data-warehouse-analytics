@@ -131,36 +131,6 @@ docs/star_schema.pdf
 
 ---
 
-# Repository Structure
-
-```
-india-data-warehouse-analytics/
-
-├── datasets/
-│   ├── power_generation.csv
-│   ├── consumer_price_index.csv
-│   └── railway_network.csv
-│
-├── tableau/
-│   └── India_Data_Warehouse_Analytics.twbx
-│
-├── dashboard_images/
-│   ├── power_dashboard.png
-│   ├── cpi_dashboard.png
-│   └── railway_dashboard.png
-│
-├── docs/
-│   ├── architecture.png
-│   ├── star_schema.pdf
-│   └── data_dictionary.md
-│
-├── sql/
-│
-└── README.md
-```
-
----
-
 # Key Features
 
 * End-to-end BI solution
