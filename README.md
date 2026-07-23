@@ -310,26 +310,6 @@ india-data-warehouse-analytics/
 ```
 
 ---
-
-## 🔬 Data Quality Highlights
-
-### Power Data — Column Rotation Bug Fix
-
-The raw power dataset contained a **cyclic column mislabeling** bug affecting `nuclear`, `hydro`, and `res` columns before Dec-2021. This was:
-
-1. ✅ **Detected** via time-series visualization (impossible "non-Central nuclear" values)
-2. ✅ **Diagnosed** through boundary analysis at Nov→Dec 2021
-3. ✅ **Fixed** by reversing the column rotation for affected rows only
-4. ✅ **Validated** with assertion gates (no nulls, no negatives, no discontinuities)
-
-### CPI Data — Missing Value Handling
-
-The CPI dataset contains legitimate `NULL` values (not all commodities are measured in all states). The ETL handles this with:
-
-```sql
-NULLIF(NULLIF(TRIM(sc.cpi),''),'NULL')::NUMERIC
-```
-
 ---
 
 ## 📈 Datasets Summary
