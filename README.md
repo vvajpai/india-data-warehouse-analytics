@@ -149,7 +149,9 @@ Dashboard screenshots are available in the `dashboard_images/` folder.
 
 ## CPI Dashboard
 
-![CPI Dashboard](dashboard_images/cpi_dashboard.png)
+![CPI Dashboard](dashboard_images/inflation_cpi_dashboard.png)
+![CPI Dashboard](dashboard_images/power_dashboard.png)
+![CPI Dashboard](dashboard_images/railway_dashboard.png)
 
 ---
 
